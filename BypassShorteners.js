@@ -17,9 +17,7 @@
     const currentUrl = window.location.href;
 
     if (bypassSites.some(site => currentUrl.includes(site))) {
-        const apiUrl = `https://iwoozie.baby/api/free/bypass?url=${encodeURIComponent(currentUrl)}`;
-
-        fetch(apiUrl)
+        fetch(`https://iwoozie.baby/api/free/bypass?url=${encodeURIComponent(currentUrl)}`)
             .then(response => response.json())
             .then(data => {
                 if (data.result) {
