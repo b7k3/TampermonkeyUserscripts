@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Bypass multiple ad-link sites automatically
-// @author       Você
+// @author       b7k3
 // @match        *://linkvertise.com/*
 // @match        *://lootdest.org/*
 // @match        *://work.ink/*
